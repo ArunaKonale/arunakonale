@@ -5,13 +5,21 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+/* Default for larger screens */
 header {
-  background-color: #ff1e00; /* Bright Orange */
+  background-color: #ff1e00;
   color: white;
   text-align: center;
-  padding: 40px 20px;         /* Top/bottom: 40px, Left/right: 20px */
-  margin-bottom: 30px;        /* Space below header */
-  border-bottom: 4px solid #ffffff90; /* Optional subtle white border */
+  padding: 20px; /* default smaller padding */
+  margin-bottom: 30px;
+  border-bottom: 4px solid #ffffff90;
+}
+
+/* For mobile devices (max-width: 576px) */
+@media (max-width: 576px) {
+  header {
+    padding: 40px;
+  }
 }
 
 /* White box for content areas */
