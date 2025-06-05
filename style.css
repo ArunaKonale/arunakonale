@@ -1,62 +1,58 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e8f9fd;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
   color: #333;
 }
 
 header {
-  background-color: #4F0495;
-  color: #fff;
-  padding: 30px 15px;
+  background: #ff1e00;
+  color: white;
+  padding: 30px 20px;
   text-align: center;
-} 
+}
 
-header h1 {
-  margin-bottom: 10px;
-  font-size: 2em;
+nav {
+  margin-top: 10px;
 }
 
 nav a {
   color: white;
   margin: 0 12px;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 section {
-  padding: 30px 20px;
-  max-width: 960px;
+  padding: 25px 20px;
+  max-width: 900px;
   margin: auto;
+  background: white;
+  margin-bottom: 15px;
+  border-radius: 8px;
 }
 
 h2 {
-  border-bottom: 2px solid #4F0495;
+  color: #ff1e00;
+  border-bottom: 2px solid #ff1e00;
   padding-bottom: 5px;
-  margin-top: 40px;
-  color: #4F0495;
 }
 
 ul {
-  list-style: disc inside;
-  padding-left: 0;
-}
-
-ul.skills-list {
-  columns: 2;
   list-style-type: square;
+  padding-left: 20px;
 }
 
-.job {
-  margin-bottom: 25px;
+a {
+  color: #59ce8f;
+  text-decoration: none;
 }
 
 footer {
-  background-color: #eee;
-  padding: 15px;
+  background: #eee;
   text-align: center;
+  padding: 15px;
   font-size: 0.9em;
   color: #444;
 }
