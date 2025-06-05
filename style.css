@@ -5,6 +5,15 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
+header {
+  background-color: #ff1e00; /* Bright Orange */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;         /* Top/bottom: 40px, Left/right: 20px */
+  margin-bottom: 30px;        /* Space below header */
+  border-bottom: 4px solid #ffffff90; /* Optional subtle white border */
+}
+
 /* White box for content areas */
 section {
   background-color: #ffffff;
