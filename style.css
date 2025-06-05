@@ -4,13 +4,15 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-} 
+  scroll-behavior: smooth;
+}
 
 header {
   background: #ff1e00;
   color: white;
   padding: 30px 20px;
   text-align: center;
+  border-bottom: 4px solid #ffffff90;
 }
 
 nav {
@@ -25,18 +27,23 @@ nav a {
 }
 
 section {
-  padding: 25px 20px;
+  padding: 30px 20px;
   max-width: 900px;
-  margin: auto;
+  margin: 20px auto;
   background: white;
-  margin-bottom: 15px;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
   color: #ff1e00;
   border-bottom: 2px solid #ff1e00;
   padding-bottom: 5px;
+}
+
+h3 {
+  color: #59ce8f;
+  margin-top: 20px;
 }
 
 ul {
@@ -55,4 +62,5 @@ footer {
   padding: 15px;
   font-size: 0.9em;
   color: #444;
+  margin-top: 20px;
 }
